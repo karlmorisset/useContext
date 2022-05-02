@@ -9,7 +9,7 @@ function App() {
   const [theme, setTheme] = useState("light");
 
   return (
-    <div className={theme}>
+    <div className={`App ${theme}`}>
       <ToolBar theme={theme} updateTheme={setTheme} />
       <p>Theme utilisé : {theme}</p>
     </div>
