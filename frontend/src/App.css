@@ -54,3 +54,16 @@ code {
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.dark {
+  font-family: sans-serif;
+  background-color: #333;
+  text-align: center;
+  color: #eee;
+}
+
+.light {
+  font-family: sans-serif;
+  text-align: center;
+  color: #333;
+}
